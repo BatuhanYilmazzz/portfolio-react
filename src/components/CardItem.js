@@ -1,17 +1,16 @@
 import React from 'react';
 import './index.css';
 
-const CardItem = () => {
+const CardItem = ({ work, index }) => {
   return (
     <div className='card'>
-      <img src='https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?auto=format&amp;fit=crop&amp;w=311&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />
+      <img src={work.photo} />
       <div className='info'>
-        <h1>Mountain</h1>
-        <p>
-          Lorem Ipsum is simply dummy text from the printing and typeseting
-          industry
-        </p>
-        <button>Read More</button>
+        <h1>{work.h1}</h1>
+        <p>{work.p}</p>
+        <button>
+          <i className='fab fa-github fa-2x'></i>
+        </button>
       </div>
     </div>
   );
