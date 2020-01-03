@@ -6,21 +6,36 @@ body,
 html {
   background: #fff;
   font-family: 'Girassol', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 1rem auto;
+  width: 100%;
+}
+
+.App h2 {
+  text-decoration: underline;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 30px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 3fr));
+  grid-template-rows: repeat(2, 500px);
+  justify-items: center;
+  align-items: center;
 }
 
 .header {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #1a0808;
+  margin-top: 3rem;
 }
 /************************NAVBARR**************************/
 .navbar {
@@ -33,7 +48,7 @@ html {
   display: flex;
   justify-content: space-between;
   width: 200px;
-  margin-top: 1rem;
+  margin: 2rem 0;
 }
 
 /******************BUTTON*****************************/
@@ -104,23 +119,17 @@ html {
 }
 
 /**********************CARD***********************************/
-.wrapper {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  grid-template-rows: repeat(2, 600px);
-  justify-items: center;
-}
 
 .card {
-  width: 500px;
-  height: 600px;
+  width: 420px;
+  height: 500px;
   padding: 1.5rem;
   background: white;
   position: relative;
   display: flex;
   align-items: flex-end;
   transition: 0.4s ease-out;
+
   /*  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);*/
 }
 .card:hover {
@@ -189,4 +198,18 @@ html {
 .card .info button:hover {
   background: rgba(7, 7, 7, 0.9);
   color: white;
+}
+.footer {
+  height: 200px;
+  color: #fff;
+  background-color: #1a0808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer_about {
+  max-width: 900px;
 }
