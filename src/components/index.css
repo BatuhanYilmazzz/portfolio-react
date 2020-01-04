@@ -35,7 +35,9 @@ html {
   align-items: center;
   text-align: center;
   color: #1a0808;
-  margin-top: 3rem;
+}
+.header h2 {
+  text-decoration: none;
 }
 /************************NAVBARR**************************/
 .navbar {

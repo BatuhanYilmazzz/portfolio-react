@@ -15,6 +15,7 @@ const Header = () => {
       <header className='header'>
         <img src={myphoto} alt='profile photo' className='myphoto' />
         <h1>UI Designer & Front-end Developer </h1>
+        <h2>Hi.I'm Batuhan Yılmaz</h2>
         <p>I chase the simplicity, and I love what I do.</p>
         <img src='' alt='' className='myphoto' />
         <div className='links'>
