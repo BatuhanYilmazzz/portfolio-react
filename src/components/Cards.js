@@ -11,7 +11,7 @@ import photo6 from '../img/one.png';
 const Cards = () => {
   const [works, setWorks] = useState([
     {
-      h1: 'Lorem, ipsum dolor. Lorem, ipsum dolor.',
+      h1: 'Lorem, ipsum dolor.',
       p:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, commodi.',
       photo: photo

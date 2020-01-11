@@ -6,10 +6,17 @@ const CardItem = ({ work, index }) => {
     <div className='card'>
       <img src={work.photo} />
       <div className='info'>
+        <p className='work-content'>
+          #Html5 #Css3 #Javascript #React #ContextAPI
+        </p>
         <h1>{work.h1}</h1>
         <p>{work.p}</p>
         <button>
           <i className='fab fa-github fa-2x'></i>
+        </button>
+
+        <button>
+          <i className='fas fa-podcast fa-2x'></i>
         </button>
       </div>
     </div>

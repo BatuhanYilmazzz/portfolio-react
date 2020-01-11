@@ -8,12 +8,12 @@ const Header = () => {
     <React.Fragment>
       <nav className='navbar'>
         <img src={logo} alt='logo' className='navbar-logo' />
-        <a href='#' className='button pulse'>
+        <a href='mailto:a.batuhan.yilmaz@gmail.com' className='button pulse'>
           Contact Me
         </a>
       </nav>
       <header className='header'>
-        <img src={myphoto} alt='profile photo' className='myphoto' />
+        <img src={myphoto} alt='profile' className='myphoto' />
         <h1>UI Designer & Front-end Developer </h1>
         <h2>Hi.I'm Batuhan Yılmaz</h2>
         <p>I chase the simplicity, and I love what I do.</p>
@@ -23,6 +23,7 @@ const Header = () => {
           <i className='fab fa-angellist fa-2x'></i>
           <i className='fab fa-github fa-2x'></i>
           <i className='fab fa-dribbble fa-2x'></i>
+          <i className='fab fa-linkedin fa-2x'></i>
         </div>
       </header>
     </React.Fragment>

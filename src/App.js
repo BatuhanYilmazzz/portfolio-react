@@ -9,7 +9,7 @@ function App() {
     <React.Fragment>
       <div className='App'>
         <Header />
-        <h2>My recent work</h2>
+        <h2 className='recent-work'>My recent work</h2>
         <Cards />
       </div>
       <Footer />
