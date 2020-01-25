@@ -1,19 +1,16 @@
 import React from 'react';
-import Header from './components/Header';
-import Cards from './components/Cards';
-import './components/index.css';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import './App.scss';
 
 function App() {
   return (
-    <React.Fragment>
-      <div className='App'>
-        <Header />
-        <h2 className='recent-work'>My recent work</h2>
-        <Cards />
-      </div>
-      <Footer />
-    </React.Fragment>
+    <div className='App'>
+      <Header />
+      <About />
+      <Projects />
+    </div>
   );
 }
 

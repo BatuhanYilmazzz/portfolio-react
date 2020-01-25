@@ -1,0 +1,32 @@
+$primary-color: #7510f7;
+
+.wrapper {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  .projects {
+    display: -webkit-box;
+    display: flex;
+    width: 55%;
+    margin: 1rem auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+
+    &__button {
+      font-size: 1.2rem;
+      border: 2px solid $primary-color;
+      padding: 10px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: $primary-color;
+      transition: background 0.2s ease-in;
+
+      &:hover {
+        color: #fff;
+        background: $primary-color;
+      }
+    }
+  }
+}
