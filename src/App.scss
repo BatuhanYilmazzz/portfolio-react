@@ -8,4 +8,7 @@ body,
 html {
   background: #fff;
   font-family: 'Titillium Web', sans-serif;
+  @media (max-width: 900px) {
+    font-size: 87.5%;
+  }
 }

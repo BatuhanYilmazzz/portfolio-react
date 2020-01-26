@@ -8,7 +8,7 @@ const About = () => {
       <div className='about'>
         <div className='about__content'>
           <h1>
-            Hi, I’m Batuhan. <br /> It's a pleasure to see you.
+            Hi, I’m Batuhan. <br /> Nice to see you.
           </h1>
           <p>
             ince beginning my journey as a freelance designer nearly 8 years
@@ -22,13 +22,13 @@ const About = () => {
       </div>
       <div className='about__skill'>
         <div className='about__skill__designer'>
-          <h3>UI Designer</h3>
+          <h2>UI Designer</h2>
           <p>
             I value simple content structure, clean design patterns, and
             thoughtful interactions.
           </p>
-          <h4>Things I enjoy designing</h4>
-          <p>UX, UI, Web, Mobile, Apps, Logos</p>
+          <h4>Things I can do for you</h4>
+          <p>UI/UX Design, Web Design ,Mobile Design</p>
           <h4>Design Tools:</h4>
           <ul>
             <li>Adobe xd</li>
@@ -36,15 +36,16 @@ const About = () => {
           </ul>
         </div>
         <div className='about__skill__developer'>
-          <h3>Full Stack Developer</h3>
+          <h2>Full Stack Developer</h2>
           <p>
             I like to code things from scratch, and enjoy bringing ideas to life
             in the browser.
           </p>
-          <h4>Languages I speak</h4>
+          <h4>Software I can offer you</h4>
           <p>
             Html5,Css3,Javascript,React,
-            <br /> Redux,Nodejs,Express
+            <br />
+            Scss,Nodejs,Express
           </p>
           <h4>Dev Tools</h4>
           <ul>

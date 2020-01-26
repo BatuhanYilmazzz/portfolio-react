@@ -3,6 +3,7 @@ $primary-color: #7510f7;
 .header {
   height: 100vh;
   padding: 0 1rem;
+  text-align: center;
 
   .navbar {
     margin: 1rem auto;
@@ -19,7 +20,14 @@ $primary-color: #7510f7;
       text-decoration: none;
       color: $primary-color;
       transition: background 0.2s ease-in;
-
+      @media (max-width: 600px) {
+        font-size: 1rem;
+        padding: 4px 20px;
+      }
+      @media (max-width: 900px) {
+        font-size: 1rem;
+        padding: 2px 15px;
+      }
       &:hover {
         color: #fff;
         background: $primary-color;
@@ -27,7 +35,12 @@ $primary-color: #7510f7;
     }
 
     &__profile {
-      width: 7rem;
+      width: 5rem;
+      border-radius: 100%;
+      outline: none;
+      @media (max-width: 550px) {
+        width: 4rem;
+      }
     }
   }
 
@@ -40,19 +53,54 @@ $primary-color: #7510f7;
 
     h1 {
       font-size: 3.5rem;
+      font-weight: bold;
       padding: 2rem 0;
-      color: #141c3a;
+      color: #100e17;
+      @media (max-width: 900px) {
+        font-size: 2rem;
+      }
     }
     p {
       font-size: 1.5rem;
       padding: 1rem 0;
-      color: #141c3a;
+      color: #100e17;
+      @media (max-width: 900px) {
+        font-size: 1.2rem;
+      }
     }
 
     img {
       width: 20rem;
       margin: 2rem 0;
-      color: #141c3a;
+      color: #100e17;
+      @media (max-width: 550px) {
+        width: 15rem;
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      padding: 2rem 1rem;
+      li {
+        margin-left: 2rem;
+        a {
+          text-decoration: none;
+          color: #100e17;
+          transition: all 0.5s ease-in;
+          &:hover {
+            color: $primary-color;
+          }
+          i {
+            transition: all 0.3s ease-in;
+            &:hover {
+              color: $primary-color;
+              transform: scale(1.3);
+            }
+          }
+        }
+      }
     }
   }
 

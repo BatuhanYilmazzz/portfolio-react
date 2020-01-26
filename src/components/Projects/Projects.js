@@ -11,7 +11,7 @@ import six from '../img/one.png';
 const Projects = () => {
   const header = 'header';
   const content =
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, commodi!';
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, incidunt. ';
 
   return (
     <div className='wrapper'>
@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectItem header={header} content={content} img={five} />
         <ProjectItem header={header} content={content} img={six} />
       </div>
-      <a className='projects__button' href='#'>
+      <a className='projects__button' href='https://github.com/BatuhanYilmazzz'>
         More on Github
       </a>
     </div>

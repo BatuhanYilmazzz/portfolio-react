@@ -1,10 +1,5 @@
 import React from 'react';
-import logo from '../img/logo.png';
-import angelist from '../img/angelist.png';
-import envelope from '../img/envelope.png';
-import github from '../img/github.png';
-import twitter from '../img/twitter.png';
-import linkedin from '../img/linkedin.png';
+
 import './Footer.scss';
 
 const Footer = () => {
@@ -20,38 +15,36 @@ const Footer = () => {
       </div>
       <div className='footer__down'>
         <div className='footer__down__container'>
-          <img
-            src={logo}
-            alt='logo'
-            className='footer__down__container__logo'
-          />
+          <h1>B&Y</h1>
           <h2>
             Living, learning, & leveling up <br /> one day at a time.
           </h2>
           <ul>
             <li>
-              <a href='#'>
-                <img src={github} alt='github' />
+              <a href='https://github.com/BatuhanYilmazzz'>
+                <span>
+                  <i className='fab fa-github'></i>
+                </span>
               </a>
             </li>
             <li>
-              <a href='#'>
-                <img src={twitter} alt='twitter' />
+              <a href='https://twitter.com/batuhan38008916'>
+                <i className='fab fa-twitter '></i>
               </a>
             </li>
             <li>
-              <a href='#'>
-                <img src={linkedin} alt='linkedin' />
+              <a href='https://www.linkedin.com/in/ahmet-batuhan-yılmaz-9981b4169/'>
+                <i className='fab fa-linkedin-in'></i>
               </a>
             </li>
             <li>
-              <a href='#'>
-                <img src={angelist} alt='angelist' />
+              <a href='https://angel.co/ahmet-batuhan-yilmaz'>
+                <i className='fab fa-angellist'></i>
               </a>
             </li>
             <li>
-              <a href='#'>
-                <img src={envelope} alt='envelope' />
+              <a href='mailto:a.batuhan.yilmaz@gmail.com'>
+                <i className='far fa-envelope'></i>
               </a>
             </li>
           </ul>

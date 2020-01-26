@@ -7,15 +7,45 @@ $primary-color: #7510f7;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #141c3a;
+    background-color: #100e17;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: -5rem;
     padding: 4rem 5rem;
     color: #fff;
     border-radius: 25px;
     text-align: center;
     z-index: 2;
+    @media (max-width: 1250px) {
+      max-width: 1000px;
+    }
+    @media (max-width: 1000px) {
+      max-width: 850px;
+      padding: 3rem 4rem;
+    }
+    @media (max-width: 850px) {
+      max-width: 750px;
+      padding: 2.5rem 3.5rem;
+    }
+    @media (max-width: 768px) {
+      max-width: 650px;
+      display: block;
+      padding: 1.5rem 1rem;
+    }
+    @media (max-width: 650px) {
+      max-width: 500px;
+    }
+    @media (max-width: 500px) {
+      max-width: 400px;
+      padding: 1.5rem 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      @media (max-width: 768px) {
+        margin: 1rem 0;
+      }
+    }
 
     button {
       padding: 0.8rem 3rem;
@@ -24,6 +54,12 @@ $primary-color: #7510f7;
       border: 2px solid $primary-color;
       color: #fff;
       font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s ease-in;
+      @media (max-width: 768px) {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+      }
 
       &:hover {
         background: $primary-color;
@@ -35,18 +71,15 @@ $primary-color: #7510f7;
     background: $primary-color;
     text-align: center;
     color: #fff;
-    padding: 5rem 0;
+    padding: 5rem 0.5rem;
 
     &__container {
       max-width: 500px;
-      margin: auto;
+      margin: 5rem auto 0 auto;
 
-      &__logo {
-        width: 4rem;
-        margin-top: 6rem;
+      h1 {
         margin-bottom: 2rem;
       }
-
       h2 {
         font-weight: 400;
         padding: 0.4rem;
@@ -58,14 +91,25 @@ $primary-color: #7510f7;
         align-items: center;
         justify-content: space-between;
         list-style: none;
-        max-width: 400px;
+        max-width: 350px;
         margin: auto;
-        padding: 2rem 1rem;
+        padding: 3rem 1rem;
 
         li {
           a {
-            img {
-              width: 2rem;
+            color: #fff;
+            text-decoration: none;
+
+            i {
+              border: 1.5px solid #eee;
+              padding: 0.9rem;
+              border-radius: 100%;
+              transition: background 0.5s ease;
+
+              &:hover {
+                color: $primary-color;
+                background: #fff;
+              }
             }
           }
         }

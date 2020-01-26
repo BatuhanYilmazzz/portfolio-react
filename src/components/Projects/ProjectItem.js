@@ -7,9 +7,9 @@ const ProjectItem = ({ header, content, img }) => {
       <div className='overlay'></div>
       <img src={img} alt='projects' />
       <div className='info'>
-        <h3>{header}</h3>
+        <h2>{header}</h2>
         <p>{content}</p>
-        <button>More</button>
+        <button>Live</button>
       </div>
     </div>
   );
