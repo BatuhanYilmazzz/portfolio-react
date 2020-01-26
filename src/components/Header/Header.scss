@@ -2,10 +2,11 @@ $primary-color: #7510f7;
 
 .header {
   height: 100vh;
+  padding: 0 1rem;
 
   .navbar {
     margin: 1rem auto;
-    max-width: 1300px;
+    max-width: 1350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +14,7 @@ $primary-color: #7510f7;
     &__button {
       font-size: 1.2rem;
       border: 2px solid $primary-color;
-      padding: 10px 25px;
+      padding: 5px 30px;
       border-radius: 30px;
       text-decoration: none;
       color: $primary-color;
@@ -26,7 +27,7 @@ $primary-color: #7510f7;
     }
 
     &__profile {
-      width: 10rem;
+      width: 7rem;
     }
   }
 

@@ -2,17 +2,21 @@ $primary-color: #7510f7;
 
 .wrapper {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  max-width: 1300px;
+  align-content: center;
+  margin: 10rem auto 10rem auto;
+
   .projects {
-    display: -webkit-box;
-    display: flex;
-    width: 55%;
-    margin: 1rem auto;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    margin-top: 7rem;
-    margin-bottom: 5rem;
+    padding: 8rem 1rem;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(1, 280px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    margin: 5rem auto;
 
     &__button {
       font-size: 1.2rem;

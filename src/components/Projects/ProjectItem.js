@@ -1,18 +1,15 @@
 import React from 'react';
-import project from '../img/project.jpg';
 import './ProjectItem.scss';
 
-const ProjectItem = () => {
+const ProjectItem = ({ header, content, img }) => {
   return (
     <div className='card'>
-      <img src={project} alt='projects' />
+      <div className='overlay'></div>
+      <img src={img} alt='projects' />
       <div className='info'>
-        <h1>Protester</h1>
-        <p>
-          Lorem Ipsum is simply dummy text from the printing and typeseting
-          industry
-        </p>
-        <button>Read More</button>
+        <h3>{header}</h3>
+        <p>{content}</p>
+        <button>More</button>
       </div>
     </div>
   );
