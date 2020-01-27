@@ -39,6 +39,10 @@ $primary-color: #7510f7;
       max-width: 400px;
       padding: 1.5rem 0;
     }
+    @media (max-width: 400px) {
+      max-width: 360px;
+      padding: 1rem 0;
+    }
 
     p {
       font-size: 1.2rem;
@@ -71,7 +75,7 @@ $primary-color: #7510f7;
     background: $primary-color;
     text-align: center;
     color: #fff;
-    padding: 5rem 0.5rem;
+    padding: 3rem 0.5rem;
 
     &__container {
       max-width: 500px;

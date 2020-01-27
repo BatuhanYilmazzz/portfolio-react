@@ -6,10 +6,9 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer__up'>
-        <h2>Start a project</h2>
+        <h2>Work together</h2>
         <p>
-          Interested in working together? We should <br /> queue up a chat. I’ll
-          buy the coffee.
+          Do you have an idea ? Let's <br /> make it real together.
         </p>
         <button>Let's go</button>
       </div>
@@ -17,7 +16,7 @@ const Footer = () => {
         <div className='footer__down__container'>
           <h1>B&Y</h1>
           <h2>
-            Living, learning, & leveling up <br /> one day at a time.
+            He believed he could, <br /> so he did.
           </h2>
           <ul>
             <li>

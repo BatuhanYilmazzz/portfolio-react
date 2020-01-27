@@ -11,12 +11,15 @@ const About = () => {
             Hi, I’m Batuhan. <br /> Nice to see you.
           </h1>
           <p>
-            ince beginning my journey as a freelance designer nearly 8 years
-            ago, I've done remote work for agencies, consulted for startups, and
-            collaborated with talented people to create digital products for
-            both business and consumer use. I'm quietly confident, naturally
-            curious, and perpetually working on improving my chops one design
-            problem at a time.
+            I graduated with a degree in aeronautical engineering from the
+            Turkish Air Force Academy , had worked for several years as a
+            project officer at Turkish Air Force and received 8+ certificates of
+            excellence from the top commanders of the Turkish Air Force before
+            making the switch to software dev. <br /> <br />
+            Design has been always my passion. I decided to give a chance to
+            myself, so here I am. You can see down below my skills I can offer
+            you. Also I'm currently looking for my next development
+            position--feel free to reach out if you'd like to talk!
           </p>
         </div>
       </div>
@@ -29,7 +32,7 @@ const About = () => {
           </p>
           <h4>Things I can do for you</h4>
           <p>UI/UX Design, Web Design ,Mobile Design</p>
-          <h4>Design Tools:</h4>
+          <h4>Design Tools</h4>
           <ul>
             <li>Adobe xd</li>
             <li>Adobe Photoshop</li>
@@ -38,18 +41,17 @@ const About = () => {
         <div className='about__skill__developer'>
           <h2>Full Stack Developer</h2>
           <p>
-            I like to code things from scratch, and enjoy bringing ideas to life
+            I love to code things from scratch, and enjoy bringing ideas to life
             in the browser.
           </p>
           <h4>Software I can offer you</h4>
           <p>
-            Html5,Css3,Javascript,React,
+            Html5,Css3,Scss,Javascript,
             <br />
-            Scss,Nodejs,Express
+            React,Nodejs,Express
           </p>
           <h4>Dev Tools</h4>
           <ul>
-            <li>Bootstrap</li>
             <li>Github</li>
             <li>Terminal</li>
             <li>Git</li>

@@ -15,7 +15,9 @@ const Header = () => {
       </div>
       <div className='header__content'>
         <h1>UI Designer & Full Stack Developer </h1>
-        <p>Everything you can imagine is real. Let's make it real.</p>
+        <p>
+          Everything you can imagine is real. <br /> Let's make it real.
+        </p>
         <img className='header__png' src={hacker} alt='hacker' />
         <ul>
           <li>
@@ -46,6 +48,9 @@ const Header = () => {
             </a>
           </li>
         </ul>
+        <div className='bounce'>
+          <i className='fas fa-chevron-down fa-2x'></i>
+        </div>
       </div>
     </div>
   );

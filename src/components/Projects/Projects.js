@@ -1,12 +1,12 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import './Projects.scss';
-import one from '../img/one.png';
-import two from '../img/two.png';
-import three from '../img/three.png';
-import four from '../img/four.png';
-import five from '../img/five.png';
-import six from '../img/one.png';
+import netflix from '../img/netflix.jpg';
+import minimalism from '../img/minimalism.jpg';
+import fashion from '../img/fashion.png';
+import food from '../img/food.png';
+import weather from '../img/weather.png';
+import budget from '../img/budget.png';
 
 const Projects = () => {
   const header = 'header';
@@ -17,12 +17,12 @@ const Projects = () => {
     <div className='wrapper'>
       <h1>My Recent Projects</h1>
       <div className='projects'>
-        <ProjectItem header={header} content={content} img={one} />
-        <ProjectItem header={header} content={content} img={two} />
-        <ProjectItem header={header} content={content} img={three} />
-        <ProjectItem header={header} content={content} img={four} />
-        <ProjectItem header={header} content={content} img={five} />
-        <ProjectItem header={header} content={content} img={six} />
+        <ProjectItem header={header} content={content} img={netflix} />
+        <ProjectItem header={header} content={content} img={minimalism} />
+        <ProjectItem header={header} content={content} img={fashion} />
+        <ProjectItem header={header} content={content} img={food} />
+        <ProjectItem header={header} content={content} img={weather} />
+        <ProjectItem header={header} content={content} img={budget} />
       </div>
       <a className='projects__button' href='https://github.com/BatuhanYilmazzz'>
         More on Github
