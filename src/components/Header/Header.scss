@@ -22,13 +22,14 @@ $primary-color: #7510f7;
       text-decoration: none;
       color: $primary-color;
       transition: background 0.2s ease-in;
-      @media (max-width: 600px) {
-        font-size: 1rem;
-        padding: 4px 20px;
-      }
+
       @media (max-width: 900px) {
         font-size: 1rem;
-        padding: 2px 15px;
+        padding: 5px 20px;
+      }
+      @media (max-width: 600px) {
+        font-size: 1rem;
+        padding: 4px 10px;
       }
       &:hover {
         color: #fff;

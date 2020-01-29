@@ -77,8 +77,8 @@ $primary-color: #7510f7;
       margin-top: 5px;
       margin-bottom: 15px;
     }
-    button {
-      padding: 0.4rem 1.8rem;
+    a {
+      padding: 0.2rem 1.5rem;
       outline: none;
       border: 1.5px solid $primary-color;
       border-radius: 25px;
@@ -88,7 +88,7 @@ $primary-color: #7510f7;
       cursor: pointer;
       -webkit-transition: 0.4s ease;
       transition: 0.4s ease;
-      margin-right: 5px;
+      text-decoration: none;
 
       &:hover {
         background: $primary-color;

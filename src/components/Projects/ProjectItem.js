@@ -9,7 +9,7 @@ const ProjectItem = ({ header, content, img }) => {
       <div className='info'>
         <h2>{header}</h2>
         <p>{content}</p>
-        <button>Live</button>
+        <a href='www.batuhan.com'>Live</a>
       </div>
     </div>
   );

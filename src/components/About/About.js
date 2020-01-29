@@ -11,7 +11,7 @@ const About = () => {
             Hi, I’m Batuhan. <br /> Nice to see you.
           </h1>
           <p>
-            I graduated with a degree in aeronautical engineering from the
+            I graduated with a degree in Aeronautical Engineering from the
             Turkish Air Force Academy , had worked for several years as a
             project officer at Turkish Air Force and received 8+ certificates of
             excellence from the top commanders of the Turkish Air Force before
@@ -35,7 +35,7 @@ const About = () => {
           <h4>Design Tools</h4>
           <ul>
             <li>Adobe xd</li>
-            <li>Adobe Photoshop</li>
+            <li>Adobe Photoshop CC</li>
           </ul>
         </div>
         <div className='about__skill__developer'>
@@ -52,9 +52,9 @@ const About = () => {
           </p>
           <h4>Dev Tools</h4>
           <ul>
+            <li>Git</li>
             <li>Github</li>
             <li>Terminal</li>
-            <li>Git</li>
             <li>Vscode</li>
           </ul>
         </div>
