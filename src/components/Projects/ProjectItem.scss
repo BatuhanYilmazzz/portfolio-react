@@ -14,7 +14,7 @@ $primary-color: #7510f7;
   align-items: flex-end;
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
-  box-shadow: 0px 5px 5px rgba(16, 14, 23, 0.8);
+  box-shadow: 0px 3px 10px 1px rgba(16, 14, 23, 0.8);
   text-align: center;
   @media (max-width: 770px) {
     width: 300px;
@@ -25,9 +25,9 @@ $primary-color: #7510f7;
     .info {
       opacity: 1;
       -webkit-transform: translateY(0px);
-      transform: translateY(-50px);
+      transform: translateY(0px);
       @media (max-width: 770px) {
-        transform: translateY(5px);
+        transform: translateY(-12px);
       }
     }
     &:before {
@@ -62,6 +62,11 @@ $primary-color: #7510f7;
     border-radius: 15px;
   }
   .info {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
     position: relative;
     z-index: 3;
     color: white;
@@ -74,8 +79,6 @@ $primary-color: #7510f7;
     p {
       letter-spacing: 1px;
       font-size: 1rem;
-      margin-top: 5px;
-      margin-bottom: 15px;
     }
     a {
       padding: 0.2rem 1.5rem;

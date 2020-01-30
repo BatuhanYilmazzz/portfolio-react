@@ -17,7 +17,7 @@ $primary-color: #7510f7;
     &__button {
       font-size: 1.2rem;
       border: 2px solid $primary-color;
-      padding: 5px 30px;
+      padding: 5px 20px;
       border-radius: 30px;
       text-decoration: none;
       color: $primary-color;
@@ -25,7 +25,6 @@ $primary-color: #7510f7;
 
       @media (max-width: 900px) {
         font-size: 1rem;
-        padding: 5px 20px;
       }
       @media (max-width: 600px) {
         font-size: 1rem;
