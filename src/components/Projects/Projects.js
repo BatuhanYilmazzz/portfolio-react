@@ -16,7 +16,7 @@ const sourcenetflix = 'https://www.google.com.tr/';
 
 const minimalismm = 'Minimalism';
 const minimalismmcontent =
-  'I can easily say that minimalism has huge impact in my daily life and tried to reflect one of my part in this website.It is full responsive and has reusable components in every part.  ';
+  'I can easily say that minimalism has huge impact in my daily life and tried to reflect one of my part in this website.It is full responsive and has reusable components in every part.';
 const createdwithminimalism = '#Html5, #Css3, #Scss';
 const sourceminimalism = 'https://batuhanyilmazzz.github.io/MinimalistDesign/';
 
@@ -34,13 +34,13 @@ const sourcerecipe = 'https://batuhanyilmazzz.github.io/MinimalistDesign/';
 
 const weatherr = 'Weather App';
 const weatherrcontent =
-  'Will you go camping and need every information about the weather?You are at right place.With this app you can easily learn  wind speed,humidity etc.Have a nice camping';
+  'Will you go camping and need every information about the weather?You are at right place.With this app you can easily learn  wind speed,humidity etc.Have a nice camping.';
 const createdwithweather = '#React Hooks, #Scss, #RestAPI';
 const sourceweather = 'https://batuhanyilmazzz.github.io/MinimalistDesign/';
 
 const budgett = 'Expense Calculator';
 const budgettcontent =
-  'This project designed for calculate your daily or monthly expense.It was created by using Context API.You can use in every devices so it is full responsive. ';
+  'This project designed for calculate your daily or monthly expense.It was created by using Context API.You can use in every devices so it is full responsive.';
 const createdwithbudget = '#React Hooks, #ContextAPI';
 const sourcebudget = 'https://batuhanyilmazzz.github.io/MinimalistDesign/';
 
