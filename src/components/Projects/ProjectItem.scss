@@ -27,7 +27,7 @@ $primary-color: #7510f7;
       -webkit-transform: translateY(0px);
       transform: translateY(0px);
       @media (max-width: 770px) {
-        transform: translateY(-12px);
+        transform: translateY(-16px);
       }
     }
     &:before {
@@ -92,6 +92,7 @@ $primary-color: #7510f7;
       -webkit-transition: 0.4s ease;
       transition: 0.4s ease;
       text-decoration: none;
+      margin-top: 5px;
 
       &:hover {
         background: $primary-color;
