@@ -41,8 +41,8 @@ const About = () => {
         <div className='about__skill__developer'>
           <h2>Full Stack Developer</h2>
           <p>
-            Coding is the my other passion.It has fired up and it will never
-            ever end.
+            Coding sth is like bringing pieces of puzzle together for me. I love
+            it and enjoy with it.
           </p>
           <h4>Software I can offer you</h4>
           <p>
