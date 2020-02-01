@@ -27,8 +27,8 @@ const About = () => {
         <div className='about__skill__designer'>
           <h2>UI Designer</h2>
           <p>
-            I value simple content structure, clean design patterns, and
-            thoughtful interactions.
+            Design has been always part of me.I always aim to simplicity on
+            every projects.
           </p>
           <h4>Things I can do for you</h4>
           <p>UI/UX Design, Web Design ,Mobile Design</p>
@@ -41,8 +41,8 @@ const About = () => {
         <div className='about__skill__developer'>
           <h2>Full Stack Developer</h2>
           <p>
-            I love to code things from scratch, and enjoy bringing ideas to life
-            in the browser.
+            Coding is the my other passion.It has fired up and it will never
+            ever end.
           </p>
           <h4>Software I can offer you</h4>
           <p>
