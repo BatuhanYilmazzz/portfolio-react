@@ -98,6 +98,9 @@ $primary-color: #7510f7;
         max-width: 350px;
         margin: auto;
         padding: 3rem 1rem;
+        @media (max-width: 768px) {
+          max-width: 270px;
+        }
 
         li {
           a {
