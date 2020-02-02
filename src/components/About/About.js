@@ -52,7 +52,6 @@ const About = () => {
           </p>
           <h4>Dev Tools</h4>
           <ul>
-            <li>Git</li>
             <li>Github</li>
             <li>Terminal</li>
             <li>Vscode</li>
