@@ -31,7 +31,7 @@ const About = () => {
             every projects.
           </p>
           <h4>Things I can do for you</h4>
-          <p>UI/UX Design, Web Design ,Mobile Design</p>
+          <p>UI Design, Web Design</p>
           <h4>Design Tools</h4>
           <ul>
             <li>Adobe xd</li>
