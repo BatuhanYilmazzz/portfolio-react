@@ -48,7 +48,7 @@ const About = () => {
           <p>
             Html5,Css3,Scss,Javascript,
             <br />
-            React,Nodejs,Express
+            React,Nodejs,Express,MongoDB
           </p>
           <h4>Dev Tools</h4>
           <ul>
