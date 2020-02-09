@@ -42,11 +42,6 @@ const Header = () => {
               <i className='fab fa-angellist fa-2x'></i>
             </a>
           </li>
-          <li>
-            <a href='mailto:a.batuhan.yilmaz@gmail.com'>
-              <i className='far fa-envelope fa-2x'></i>
-            </a>
-          </li>
         </ul>
         <div className='bounce'>
           <i className='fas fa-chevron-down fa-2x'></i>
