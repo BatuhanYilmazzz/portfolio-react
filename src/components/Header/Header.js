@@ -10,7 +10,7 @@ const Header = () => {
       <div className='navbar'>
         <img className='navbar__profile' src={myphoto} alt='personal' />
         <a className='navbar__button' href='mailto:a.batuhan.yilmaz@gmail.com'>
-          Contact me
+          Contact
         </a>
       </div>
       <div className='header__content'>
