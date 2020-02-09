@@ -97,12 +97,12 @@ $primary-color: #7510f7;
       align-items: center;
       list-style: none;
       padding: 2rem 1rem;
-      width: 20rem;
+      width: 15rem;
       @media (max-width: 1366px) {
         padding: 1rem 1rem;
       }
       @media (max-width: 900px) {
-        width: 15rem;
+        width: 13rem;
       }
       li {
         a {
