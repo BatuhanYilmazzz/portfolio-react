@@ -39,22 +39,22 @@ const About = () => {
           </ul>
         </div>
         <div className='about__skill__developer'>
-          <h2>Full Stack Developer</h2>
+          <h2>Frontend Developer</h2>
           <p>
             Coding sth is like bringing pieces of puzzle together for me. I love
             it and enjoy with it.
           </p>
           <h4>Software I can offer you</h4>
           <p>
-            Html5,Css3,Scss,Javascript,
+            Html5,Css3,Scss,Bootstrap
             <br />
-            React,Nodejs,Express,MongoDB
+            Javascript,React,Redux
           </p>
-          <h4>Dev Tools</h4>
+          <h4>Familiar with</h4>
           <ul>
-            <li>Github</li>
-            <li>Terminal</li>
-            <li>Vscode</li>
+            <li>Nodejs</li>
+            <li>Express</li>
+            <li>MongoDB</li>
           </ul>
         </div>
       </div>

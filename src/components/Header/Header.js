@@ -14,7 +14,7 @@ const Header = () => {
         </a>
       </div>
       <div className='header__content'>
-        <h1>UI Designer & Full Stack Developer </h1>
+        <h1>UI Designer & Frontend Developer </h1>
         <p>
           Everything you can imagine is real. <br /> Let's make it real.
         </p>
