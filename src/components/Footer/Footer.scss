@@ -78,7 +78,7 @@ $primary-color: #7510f7;
     padding: 3rem 0.5rem;
 
     &__container {
-      max-width: 500px;
+      max-width: 700px;
       margin: 5rem auto 0 auto;
 
       h1 {
@@ -95,11 +95,11 @@ $primary-color: #7510f7;
         align-items: center;
         justify-content: space-between;
         list-style: none;
-        max-width: 350px;
+        max-width: 400px;
         margin: auto;
         padding: 3rem 1rem;
         @media (max-width: 768px) {
-          max-width: 270px;
+          max-width: 300px;
         }
 
         li {

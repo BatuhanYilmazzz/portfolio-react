@@ -1,14 +1,16 @@
-import React from 'react';
-import hacker from '../img/hacker.png';
+import React from "react";
 
-import myphoto from '../img/myphoto.jpg';
-import './Header.scss';
+import "./Header.scss";
 
 const Header = () => {
   return (
     <div className='header'>
       <div className='navbar'>
-        <img className='navbar__profile' src={myphoto} alt='personal' />
+        <img
+          className='navbar__profile'
+          src='./img/myphoto.webp'
+          alt='personal'
+        />
         <a className='navbar__button' href='mailto:a.batuhan.yilmaz@gmail.com'>
           Contact
         </a>
@@ -18,7 +20,7 @@ const Header = () => {
         <p>
           Everything you can imagine is real. <br /> Let's make it real.
         </p>
-        <img className='header__png' src={hacker} alt='hacker' />
+        <img className='header__png' src='./img/hacker.webp' alt='hacker' />
         <ul>
           <li>
             <a href='https://github.com/BatuhanYilmazzz'>
@@ -28,7 +30,14 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='https://twitter.com/batuhan38008916'>
+            <a href='https://gitlab.com/BatuhanYilmazz'>
+              <span>
+                <i className='fab fa-gitlab fa-2x'></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href='https://twitter.com/batuhnnylmazz'>
               <i className='fab fa-twitter fa-2x'></i>
             </a>
           </li>

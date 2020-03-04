@@ -14,7 +14,7 @@ $primary-color: #7510f7;
   align-items: flex-end;
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
-  box-shadow: 0px 3px 10px 1px rgba(16, 14, 23, 0.8);
+  box-shadow: 0px 3px 3px 1px rgba(16, 14, 23, 0.4);
   text-align: center;
   @media (max-width: 770px) {
     width: 300px;
@@ -36,7 +36,7 @@ $primary-color: #7510f7;
   }
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;

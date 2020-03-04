@@ -1,48 +1,42 @@
-import React from 'react';
-import ProjectItem from './ProjectItem';
-import './Projects.scss';
-import netflix from '../img/netflix.png';
-import minimalism from '../img/minimalism.jpg';
-import fashion from '../img/fashion.jpg';
-import recipe from '../img/recipe.jpg';
-import weather from '../img/weather.jpg';
-import budget from '../img/budget.jpg';
+import React from "react";
+import ProjectItem from "./ProjectItem";
+import "./Projects.scss";
 
-const netflixx = 'Netflix Landing Page';
+const netflixx = "Netflix Landing Page";
 const netflixxcontent =
-  ' This is one my favourite projects.I love having Netflix in my life.So I decided to make meaningfull for myself.Also it is full responsive for every device.';
-const createdwithnetflix = '#React Hooks, #Scss';
-const sourcenetflix = 'https://netflix-batu.herokuapp.com/';
+  " This is one my favourite projects.I love having Netflix in my life.So I decided to make meaningfull for myself.Also it is full responsive for every device.";
+const createdwithnetflix = "#React Hooks, #Scss";
+const sourcenetflix = "https://netflix-batu.herokuapp.com/";
 
-const minimalismm = 'Minimalism';
+const minimalismm = "Minimalism";
 const minimalismmcontent =
-  'I can easily say that minimalism has huge impact in my daily life and tried to reflect one of my part in this website.It is full responsive and has reusable components in every part.';
-const createdwithminimalism = '#Html5, #Css3, #Scss';
-const sourceminimalism = 'https://batuhanyilmazzz.github.io/MinimalistDesign/';
+  "I can easily say that minimalism has huge impact in my daily life and tried to reflect one of my part in this website.It is full responsive and has reusable components in every part.";
+const createdwithminimalism = "#Html5, #Css3, #Scss";
+const sourceminimalism = "https://batuhanyilmazzz.github.io/MinimalistDesign/";
 
-const fashionn = 'Fashion B&Y';
+const fashionn = "Fashion B&Y";
 const fashionncontent =
-  'This project one my website projects.It was builded with Scss and it is full responsive.';
-const createdwithfashion = '#Html5, #Css3, #Scss';
-const sourcefashion = 'https://batuhanyilmazzz.github.io/FashionDesign/';
+  "This project one my website projects.It was builded with Scss and it is full responsive.";
+const createdwithfashion = "#Html5, #Css3, #Scss";
+const sourcefashion = "https://batuhanyilmazzz.github.io/FashionDesign/";
 
-const recipee = 'Recipe App';
+const recipee = "Recipe App";
 const recipeecontent =
-  'This project is all about cooking.You can reach recipes that you want to cook.If you want more about it , app will direct you.Have a nice meal.';
-const createdwithrecipe = '#React Hooks, #Scss, #RestAPI';
-const sourcerecipe = 'https://recipeapp-batu.herokuapp.com/';
+  "This project is all about cooking.You can reach recipes that you want to cook.If you want more about it , app will direct you.Have a nice meal.";
+const createdwithrecipe = "#React Hooks, #Scss, #RestAPI";
+const sourcerecipe = "https://recipeapp-batu.herokuapp.com/";
 
-const weatherr = 'Weather App';
+const weatherr = "Weather App";
 const weatherrcontent =
-  'Will you go camping and need every information about the weather? You are at right place.With this app you can easily learn wind speed,humidity etc.Have a nice camping.';
-const createdwithweather = '#React Hooks, #Scss, #RestAPI';
-const sourceweather = 'https://weatherapp-batu.herokuapp.com/';
+  "Will you go camping and need every information about the weather? You are at right place.With this app you can easily learn wind speed,humidity etc.Have a nice camping.";
+const createdwithweather = "#React Hooks, #Scss, #RestAPI";
+const sourceweather = "https://weatherapp-batu.herokuapp.com/";
 
-const budgett = 'Expense Calculator';
+const budgett = "Expense Calculator";
 const budgettcontent =
-  'This project designed for calculate your daily or monthly expense.It was created by using Context API.You can use in every devices so it is full responsive.';
-const createdwithbudget = '#React Hooks, #ContextAPI';
-const sourcebudget = 'https://budgetapp-batu.herokuapp.com/';
+  "This project designed for calculate your daily or monthly expense.It was created by using Context API.You can use in every devices so it is full responsive.";
+const createdwithbudget = "#React Hooks, #ContextAPI";
+const sourcebudget = "https://budgetapp-batu.herokuapp.com/";
 
 const Projects = () => {
   return (
@@ -53,35 +47,35 @@ const Projects = () => {
           header={netflixx}
           content={netflixxcontent}
           created={createdwithnetflix}
-          img={netflix}
+          img='./img/netflix.webp'
           source={sourcenetflix}
         />
         <ProjectItem
           header={weatherr}
           content={weatherrcontent}
           created={createdwithweather}
-          img={weather}
+          img='./img/weather.webp'
           source={sourceweather}
         />
         <ProjectItem
           header={recipee}
           content={recipeecontent}
           created={createdwithrecipe}
-          img={recipe}
+          img='./img/recipe.webp'
           source={sourcerecipe}
         />
         <ProjectItem
           header={fashionn}
           content={fashionncontent}
           created={createdwithfashion}
-          img={fashion}
+          img='./img/fashion.webp'
           source={sourcefashion}
         />
         <ProjectItem
           header={minimalismm}
           content={minimalismmcontent}
           created={createdwithminimalism}
-          img={minimalism}
+          img='./img/minimalism.webp'
           source={sourceminimalism}
         />
 
@@ -89,7 +83,7 @@ const Projects = () => {
           header={budgett}
           content={budgettcontent}
           created={createdwithbudget}
-          img={budget}
+          img='./img/budget.webp'
           source={sourcebudget}
         />
       </div>

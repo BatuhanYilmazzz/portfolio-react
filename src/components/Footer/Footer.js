@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './Footer.scss';
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -27,7 +27,14 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/batuhan38008916'>
+              <a href='https://gitlab.com/BatuhanYilmazz'>
+                <span>
+                  <i className='fab fa-gitlab'></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href='https://twitter.com/batuhnnylmazz'>
                 <i className='fab fa-twitter '></i>
               </a>
             </li>
