@@ -47,35 +47,35 @@ const Projects = () => {
           header={netflixx}
           content={netflixxcontent}
           created={createdwithnetflix}
-          img='./img/netflix.webp'
+          img='./img/netflix.png'
           source={sourcenetflix}
         />
         <ProjectItem
           header={weatherr}
           content={weatherrcontent}
           created={createdwithweather}
-          img='./img/weather.webp'
+          img='./img/weather.jpg'
           source={sourceweather}
         />
         <ProjectItem
           header={recipee}
           content={recipeecontent}
           created={createdwithrecipe}
-          img='./img/recipe.webp'
+          img='./img/recipe.jpg'
           source={sourcerecipe}
         />
         <ProjectItem
           header={fashionn}
           content={fashionncontent}
           created={createdwithfashion}
-          img='./img/fashion.webp'
+          img='./img/fashion.jpg'
           source={sourcefashion}
         />
         <ProjectItem
           header={minimalismm}
           content={minimalismmcontent}
           created={createdwithminimalism}
-          img='./img/minimalism.webp'
+          img='./img/minimalism.jpg'
           source={sourceminimalism}
         />
 
@@ -83,7 +83,7 @@ const Projects = () => {
           header={budgett}
           content={budgettcontent}
           created={createdwithbudget}
-          img='./img/budget.webp'
+          img='./img/budget.jpg'
           source={sourcebudget}
         />
       </div>

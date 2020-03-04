@@ -8,7 +8,7 @@ const Header = () => {
       <div className='navbar'>
         <img
           className='navbar__profile'
-          src='./img/myphoto.webp'
+          src='./img/myphoto.jpg'
           alt='personal'
         />
         <a className='navbar__button' href='mailto:a.batuhan.yilmaz@gmail.com'>
@@ -20,7 +20,7 @@ const Header = () => {
         <p>
           Everything you can imagine is real. <br /> Let's make it real.
         </p>
-        <img className='header__png' src='./img/hacker.webp' alt='hacker' />
+        <img className='header__png' src='./img/hacker.png' alt='hacker' />
         <ul>
           <li>
             <a href='https://github.com/BatuhanYilmazzz'>
